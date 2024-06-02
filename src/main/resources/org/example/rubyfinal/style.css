@@ -16,6 +16,8 @@
 
 #tutorialButton:hover, #manualButton:hover, #solverButton:hover {
     -fx-background-color: #45A29E;
+    -fx-text-fill: black;
+
 }
 
 #ProjectName{
