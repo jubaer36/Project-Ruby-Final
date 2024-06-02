@@ -20,19 +20,20 @@
 
 }
 
-#ProjectName{
+#ProjectName {
     #applicationNameLabel {
-        -fx-text-color: #66FC1;  /* White text color */
+        -fx-text-fill: #66FC1;  /* White text color */
         -fx-font-size: 30px;  /* Font size for visibility */
         -fx-font-weight: bold;  /* Bold font weight for emphasis */
         -fx-padding: 10px;  /* Padding around the text */
-        -fx-background-color:#1F2833;
+        -fx-background-color: #1F2833;
+        /*-fx-font-family: "Calibri"; !* Set the font family to Calibri *!*/
         /* Center the text */
     }
 }
 
 #imagePane {
-    -fx-background-image: url("file:/D:/Project-Ruby-Final/src/main/Designer.jpeg");
+    -fx-background-image: url("file:src/main/Designer.jpeg");
     -fx-background-repeat: no-repeat;
     -fx-background-size: 400px 400px;
 }
